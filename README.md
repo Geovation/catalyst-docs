@@ -1,2 +1,5 @@
-# catalyst
-Front end github pages site for Catalyst documentation and content
+# Catalyst
+
+Front-end GitHub pages site for Catalyst documentation and content.
+
+
