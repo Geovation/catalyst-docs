@@ -1,0 +1,35 @@
+name: Sync Catalist Markdown
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *" # Runs daily at 2am
+
+jobs:
+  sync-catalist-markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+
+      - name: Remove existing files in catalist directory
+        run: |
+          rm -rf catalist/*
+          mkdir -p catalist
+
+      - name: Download markdown files from external repo
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Geovation/catalist.git temp-catalist
+          cd temp-catalist
+          git sparse-checkout set markdown
+          cp -r markdown/* ../catalist/
+          cd ..
+          rm -rf temp-catalist
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add catalist/
+          git diff --cached --quiet || git commit -m "Sync catalist markdown files from external repository"
+          git push
