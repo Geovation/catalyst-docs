@@ -2,18 +2,19 @@
 title: Satellite & Aerial Imagery
 has_children: false
 parent: Catalist
-nav_order: 12
+nav_order: 14
 ---
 
 # Satellite & Aerial Imagery
 
-| Name                                                                | Provider              | Licensing | Data link 1                                                                                                                            | Data link 2                                                    | Docs link                                                                             |
-| ------------------------------------------------------------------- | --------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [BlueSky Imagery](#bluesky-imagery)                                 | BlueSky               | Premium   | [Data link 1](https://www.blueskymapshop.com/maps/aerial-photo-hi-res?x=531566&y=180144&z=3&w=1000&h=1000&f=&p=[]&m=)                  | [Data link 2]()                                                | [Docs link](https://www.blueskymapshop.com/products/aerial-photography)               |
-| [Sentinel 2 Imagery](#sentinel-2-imagery)                           | European Space Agency | Open      | [Data link 1](https://dataspace.copernicus.eu/news/2023-9-28-accessing-sentinel-mission-data-new-copernicus-data-space-ecosystem-apis) | [Data link 2](https://browser.dataspace.copernicus.eu/)        | [Docs link](https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data.html) |
-| [PlanetScope (Planet Monitoring)](#planetscope-(planet-monitoring)) | Planet                | Premium   | [Data link 1](https://www.planet.com/products/satellite-monitoring/)                                                                   | [Data link 2](https://docs.planet.com/develop/apis/data/)      | [Docs link](https://docs.planet.com/data/imagery/planetscope/)                        |
-| [SkySat (Planet Tasking)](#skysat-(planet-tasking))                 | Planet                | Premium   | [Data link 1](https://www.planet.com/products/high-resolution-satellite-imagery/)                                                      | [Data link 2](https://docs.planet.com/develop/apis/data/)      | [Docs link](https://docs.planet.com/data/imagery/skysat/)                             |
-| [GetMapping Aerial Content](#getmapping-aerial-content)             | GetMapping            | Premium   | [Data link 1](https://www.getmapping.co.uk/contact-getmapping/)                                                                        | [Data link 2](https://www.getmapping.co.uk/content-on-demand/) | [Docs link](https://www.getmapping.co.uk/aerial-content/)                             |
+| Name                                                                | Provider              | Licensing | Data link 1                                                                                                                            | Data link 2                                                         | Docs link                                                                                                     |
+| ------------------------------------------------------------------- | --------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| [BlueSky Imagery](#bluesky-imagery)                                 | BlueSky               | Premium   | [Data link 1](https://www.blueskymapshop.com/maps/aerial-photo-hi-res?x=531566&y=180144&z=3&w=1000&h=1000&f=&p=[]&m=)                  |                                                                     | [Docs link](https://www.blueskymapshop.com/products/aerial-photography)                                       |
+| [Sentinel 2 Imagery](#sentinel-2-imagery)                           | European Space Agency | Open      | [Data link 1](https://dataspace.copernicus.eu/news/2023-9-28-accessing-sentinel-mission-data-new-copernicus-data-space-ecosystem-apis) | [Data link 2](https://browser.dataspace.copernicus.eu/)             | [Docs link](https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data.html)                         |
+| [GetMapping Aerial Content](#getmapping-aerial-content)             | GetMapping            | Premium   | [Data link 1](https://www.getmapping.co.uk/contact-getmapping/)                                                                        | [Data link 2](https://www.getmapping.co.uk/content-on-demand/)      | [Docs link](https://www.getmapping.co.uk/aerial-content/)                                                     |
+| [Hyperspectral Imagery](#hyperspectral-imagery)                     | Pixxel                | Premium   | [Data link 1](https://www.pixxel.space/hyperspectral-imagery)                                                                          | [Data link 2](https://docs.pixxel.space/api-reference/introduction) | [Docs link](https://support.pixxel.space/hc/en-us/articles/9588039261724-Pixxel-Product-Specifications-Guide) |
+| [PlanetScope (Planet Monitoring)](#planetscope-(planet-monitoring)) | Planet                | Premium   | [Data link 1](https://www.planet.com/products/satellite-monitoring/)                                                                   | [Data link 2](https://docs.planet.com/develop/apis/data/)           | [Docs link](https://docs.planet.com/data/imagery/planetscope/)                                                |
+| [SkySat (Planet Tasking)](#skysat-(planet-tasking))                 | Planet                | Premium   | [Data link 1](https://www.planet.com/products/high-resolution-satellite-imagery/)                                                      | [Data link 2](https://docs.planet.com/develop/apis/data/)           | [Docs link](https://docs.planet.com/data/imagery/skysat/)                                                     |
 
 ## BlueSky Imagery
 
@@ -24,7 +25,7 @@ nav_order: 12
 - **Provider:** BlueSky
 - **Licensing:** Premium
 - **Data link 1:** [Data link 1](https://www.blueskymapshop.com/maps/aerial-photo-hi-res?x=531566&y=180144&z=3&w=1000&h=1000&f=&p=[]&m=)
-- **Data link 2:** [Data link 2]()
+- **Data link 2:** 
 - **Docs link:** [Docs link](https://www.blueskymapshop.com/products/aerial-photography)
 
 
@@ -40,6 +41,34 @@ Satellite imagery at 10m resolution every ~3 days. Does not guarantee absence of
 - **Data link 1:** [Data link 1](https://dataspace.copernicus.eu/news/2023-9-28-accessing-sentinel-mission-data-new-copernicus-data-space-ecosystem-apis)
 - **Data link 2:** [Data link 2](https://browser.dataspace.copernicus.eu/)
 - **Docs link:** [Docs link](https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data.html)
+
+
+
+## GetMapping Aerial Content
+
+Aerial imagery across GB. Updated every three years. Includes a historic backlog back to 1999. The national imagery is at 12.5cm resolution, and 5cm resolution for urban areas. There is a standard Vertical Imagery product, and a separate Colour Infrared (CIR) product, together covering full RGBI.
+
+- **Category:** Satellite & Aerial Imagery
+- **Secondary Category:** 
+- **Provider:** GetMapping
+- **Licensing:** Premium
+- **Data link 1:** [Data link 1](https://www.getmapping.co.uk/contact-getmapping/)
+- **Data link 2:** [Data link 2](https://www.getmapping.co.uk/content-on-demand/)
+- **Docs link:** [Docs link](https://www.getmapping.co.uk/aerial-content/)
+
+
+
+## Hyperspectral Imagery
+
+Hyperspectral imagery at 5m resolution and 470-900 nm spectral range. Updated every 1 to 4 days. Delivered as GeoTiff. Extends back to around 2023.
+
+- **Category:** Satellite & Aerial Imagery
+- **Secondary Category:** 
+- **Provider:** Pixxel
+- **Licensing:** Premium
+- **Data link 1:** [Data link 1](https://www.pixxel.space/hyperspectral-imagery)
+- **Data link 2:** [Data link 2](https://docs.pixxel.space/api-reference/introduction)
+- **Docs link:** [Docs link](https://support.pixxel.space/hc/en-us/articles/9588039261724-Pixxel-Product-Specifications-Guide)
 
 
 
@@ -68,17 +97,3 @@ High-resolution imagery captured by a fleet of satellites, updated up to 10 time
 - **Data link 1:** [Data link 1](https://www.planet.com/products/high-resolution-satellite-imagery/)
 - **Data link 2:** [Data link 2](https://docs.planet.com/develop/apis/data/)
 - **Docs link:** [Docs link](https://docs.planet.com/data/imagery/skysat/)
-
-
-
-## GetMapping Aerial Content
-
-Aerial imagery across GB. Updated every three years. Includes a historic backlog back to 1999. The national imagery is at 12.5cm resolution, and 5cm resolution for urban areas. There is a standard Vertical Imagery product, and a separate Colour Infrared (CIR) product, together covering full RGBI.
-
-- **Category:** Satellite & Aerial Imagery
-- **Secondary Category:** 
-- **Provider:** GetMapping
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://www.getmapping.co.uk/contact-getmapping/)
-- **Data link 2:** [Data link 2](https://www.getmapping.co.uk/content-on-demand/)
-- **Docs link:** [Docs link](https://www.getmapping.co.uk/aerial-content/)
