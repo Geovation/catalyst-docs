@@ -28,7 +28,7 @@ nav_order: 4
 EPC rating for properties, along with other energy-related stats. About 60% have UPRNs
 
 - **Category:** Buildings
-- **Secondary Category:** 
+- **Secondary Category:** Energy & Infrastructure
 - **Provider:** Department for Levelling Up, Housing & Communities
 - **Licensing:** Open
 - **Data link 1:** [Data link 1](https://epc.opendatacommunities.org/domestic/search)

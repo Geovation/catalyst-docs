@@ -2,7 +2,7 @@
 title: Water & Hydrology
 has_children: false
 parent: Catalist
-nav_order: 17
+nav_order: 18
 ---
 
 # Water & Hydrology
@@ -48,7 +48,7 @@ The extents and locations of surface water catchment areas: designated sites des
 
 Data about releases of raw, untreated sewage into waterbodies through storm overflow outlets. Data provided annually from the 10 Water and Sewerage Companies with storm overflows in England. Includes frequency and duration of discharges, and (post-2021) poteintial causes of high spill counts.
 
-- **Category:** Climate & Weather
+- **Category:** Health & Safety
 - **Secondary Category:** Water & Hydrology
 - **Provider:** Environmental Agency
 - **Licensing:** Open
